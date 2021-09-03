@@ -1,0 +1,69 @@
+/* * {
+    position: relative;
+} */
+
+body {
+    background-color: #19292C;
+}
+
+.Rectangle1 {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #44C5CB;
+}
+
+h1{
+    position: relative;
+    top: 40%;
+    font-family: Vipnagorgialla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.7vh;
+    line-height: 7.7vh;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    text-decoration: none;
+}
+
+a {
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    text-decoration: none;
+}
+
+.Rectangle2 {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 25%;
+    top: 0px;
+    background: #FCE315;
+}
+
+.Rectangle3 {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    background: #F53D52;
+}
+
+.Rectangle4 {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 75%;
+    top: 0px;    
+    background: #FF9200;
+}
+
+@media screen and (max-width: 519px) {
+    h1 {
+      font-size: 100%;
+    }
+  }

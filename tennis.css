@@ -1,0 +1,227 @@
+*{
+    margin:	0% 0% 0% 0%;
+    padding: 0;
+}
+
+body {
+    background-color: #19292C;
+    overflow: hidden;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.Rectangle5 {
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    left: -2px;
+    top: 0px;
+    
+    background: #F53D52;
+}
+
+h1 {
+    /* position: absolute;    */
+    font-family: Vipnagorgialla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.7vh;
+    /* line-height: 7.7vh; */
+    text-align: center;
+    -webkit-text-stroke: 1px #000000;
+    color: #FFFFFF; 
+}
+
+p {
+    font-family: Vipnagorgialla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.87vh;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.Rectangle5 h1{
+    position: relative;
+    left: 0.5vw;
+    top: 50vh;
+    transform: rotate(-90deg);    
+}
+
+.header h1{
+    position: absolute;
+    /* width: 25.8vw; */
+    height: 1vh;
+    left: 8vw;
+    top: 1.46vh;    
+}
+
+.line{
+    position: absolute;
+    width: 70.9vh ;
+    height: 0vh;
+    left: 50%;
+    top: 50vh;
+    /* stroke: 10px solid #FFFFFF; */
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.container {
+    position: absolute;
+    left:75%;
+}
+
+.container h1{
+    font-size: 5.71vh;
+}
+
+.nextevent {
+    position: relative;
+    /* left: 75%; */
+    top: 5vh;
+}
+
+.news {
+    position: relative;
+    /* left: 78%; */
+    top: 40vh;
+}
+
+.card {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    width: 47.2%;
+    height: 33.2%;
+    background: #F53D52;
+    border-radius: 30px;
+    display:grid;
+}
+
+.card h1{
+    position: relative;
+    font-size: 5.71vh;
+}
+
+.team1 {
+    position: relative;
+    top: 50%;
+    right: 35%;
+}
+
+.team2 {
+    position: relative;
+    bottom: 50%;
+    left: 35%;
+}
+
+.score1 {
+    position: relative;
+    left: 15%;
+}
+
+.score2 {
+    position: relative;
+    right: 15%;
+}
+
+.foot {
+    position: absolute;
+    left: 4.5%;
+    top: 95%;
+    width: 95%;
+    height: 5%;
+    background: #F53D52;
+    /* transform: rotate(-90deg); */
+}
+
+.footfb {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 60%;
+    top: 0;
+    /* transform: rotate(90deg); */
+    background: #FCE315;
+}
+
+.foott {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 70%;
+    top: 0;
+    /* transform: rotate(90deg); */
+    background: #44C5CB;
+}
+
+.footo {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 80%;
+    top: 0;
+    /* transform: rotate(90deg); */
+    background: #FF9200;
+}
+
+.footh {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 90%;
+    top: 0;
+    /* transform: rotate(90deg); */
+}
+
+.foot h1{
+    position:relative;
+    top: 20%;
+    font-size: 1.5vw;
+}
+
+a {
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+    text-decoration: none;
+}
+
+@media screen and (max-height:17px) {
+    .foot h1{
+        top:0;
+    }    
+}
+
+  @media screen and (max-width: 1000px) {
+    .Rectangle5 h1{
+        font-size: 3.8vw;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .line{
+      display: none;
+    }
+    .nextevent{
+        display: none;
+    }
+    .news{
+        display: none;
+    }
+    .card{
+        width: 80%;
+    }
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+     }
+}
